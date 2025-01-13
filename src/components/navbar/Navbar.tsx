@@ -15,12 +15,12 @@ const Navbar = () => {
       <div className="text-2xl font-bold text-indigo-600 hidden md:block">
         BrandName
       </div>
-
+      <div className="md:hidden block"></div>
       {/* Right Section: Avatar and Balance */}
       <div className="flex items-center space-x-4">
         {/* User Balance */}
         <div className="text-gray-700">
-          <span className="text-white bg-indigo-500 font-semibold border p-2 rounded-md">
+          <span className="text-white bg-indigo-500 font-semibold border p-2 rounded-md ">
             $120.50
           </span>
         </div>
